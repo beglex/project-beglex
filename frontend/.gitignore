@@ -1,0 +1,16 @@
+# Project
+/.next/
+/build/
+/coverage/
+/node_modules/
+/out/
+/tmp/
+/.env
+/next-env.d.ts
+/package-lock.json
+
+# OS
+/**/.DS_Store
+
+# IDEs and editors
+/.idea/

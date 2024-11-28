@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "incremental": true,
+    "target": "ES2023",
+    "jsx": "preserve",
+    "lib": ["DOM", "ESNext"],
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "paths": {
+      "@root/*": ["./src/*"],
+      "@backend/*": ["../backend/src/*"]
+    },
+
+    "resolveJsonModule": true,
+    "allowJs": true,
+    "strict": true,
+    "noEmit": true,
+    "sourceMap": true,
+
+    "esModuleInterop": true,
+    "isolatedModules": true,
+    "skipLibCheck": true,
+    "plugins": [
+      { "name": "next" }
+    ]
+  },
+
+  "include": ["**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+
+  "exclude": ["node_modules"]
+}

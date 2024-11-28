@@ -1,0 +1,14 @@
+# Project
+/coverage/
+/dist/
+/node_modules/
+/logs/
+/tmp/
+/.env
+/package-lock.json
+
+# OS
+/**/.DS_Store
+
+# IDEs and editors
+/.idea/

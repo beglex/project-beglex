@@ -1,0 +1,19 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Dev",
+      "type": "node-terminal",
+      "request": "launch",
+      "env": {
+        "NODE_OPTIONS": "--inspect"
+      },
+      "skipFiles": [
+        "${workspaceFolder}/node_modules/**",
+        "<node_internals>/**"
+      ],
+      "sourceMaps": true,
+      "command": "npm run dev"
+    }
+  ]
+}
