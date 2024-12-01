@@ -2,7 +2,7 @@ import type {PropsWithChildren} from 'react';
 
 import {Box, Typography} from '@mui/material';
 
-import {Copyright} from '../../components';
+import {Copyright} from '@root/components';
 
 export default function AuthenticationLayout({children}: PropsWithChildren) {
     return (

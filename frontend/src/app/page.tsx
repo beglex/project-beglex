@@ -1,7 +1,7 @@
 import {Box, Container, Paper, Typography} from '@mui/material';
 
-import {Copyright, ThemeToggle} from '../components';
-import {UsersTable} from '../containers';
+import {Copyright, ThemeToggle} from '@root/components';
+import {UsersTable} from '@root/containers';
 
 export default function Home() {
     return (

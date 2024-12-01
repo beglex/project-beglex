@@ -4,12 +4,11 @@ import {Logger, ValidationPipe} from '@nestjs/common';
 import {NestFactory} from '@nestjs/core';
 import helmet from 'helmet';
 
+import {ApplicationModule} from '@root/ApplicationModule';
+import {boot} from '@root/boot';
 import {config} from '@root/configuration';
 import {ErrorFilter} from '@root/filters';
-
-import {ApplicationModule} from './ApplicationModule';
-import {boot} from './boot';
-import {LoggingInterceptor} from './interceptors';
+import {LoggingInterceptor} from '@root/interceptors';
 
 const {env, host, port, services: {client}} = config;
 

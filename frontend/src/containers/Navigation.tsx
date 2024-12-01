@@ -6,9 +6,8 @@ import {redirect} from 'next/navigation';
 import {useEffect, useState} from 'react';
 
 import {Loader} from '@root/components';
+import {UsersTable} from '@root/containers';
 import {VersionService} from '@root/services';
-
-import {UsersTable} from './UsersTable';
 
 const service = new VersionService();
 
